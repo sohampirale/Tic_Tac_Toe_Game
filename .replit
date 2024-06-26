@@ -1,0 +1,6 @@
+run = "git status"
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["sh", "-c", "git status"]
